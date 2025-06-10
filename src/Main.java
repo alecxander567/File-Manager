@@ -347,8 +347,7 @@ public class Main {
 	    folderPanel.revalidate();
 	    folderPanel.repaint();
 	}
-
-    
+  
     private static void saveFolderPath(String folderPath) {
         try (FileWriter writer = new FileWriter("saved_folders.txt", true)) {
             writer.write(folderPath + System.lineSeparator());

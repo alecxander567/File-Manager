@@ -7,7 +7,7 @@ import javax.swing.SwingUtilities;
  */
 public class WrapLayout extends FlowLayout {
 
-    public WrapLayout() {
+	public WrapLayout() {
         super();
     }
 
